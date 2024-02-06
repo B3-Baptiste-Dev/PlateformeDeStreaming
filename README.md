@@ -1,9 +1,6 @@
 # Conception de la Base de Données pour une Plateforme de Streaming
 
-
 ## Dictionnaire de Données
-
-# Dictionnaire de Données
 
 | Table        | Donnée        | Type          | Taille       | Obligatoire |
 |--------------|---------------|---------------|--------------|-------------|
@@ -40,7 +37,7 @@
 
 
 
-### Requêtes SQL pour la Création des Tables
+## Requêtes SQL pour la Création des Tables
 
 ```sql
 CREATE DATABASE IF NOT EXISTS PlateformeDB;
@@ -115,7 +112,7 @@ CREATE TABLE FilmGenre (
 
 ```
 
-### Jeu de données
+## Jeu de données
 
 ```sql
 INSERT INTO Personne (nom, prénom, dateNaissance) VALUES
@@ -148,7 +145,7 @@ INSERT INTO FilmGenre (idFilm, idGenre) VALUES
 (2, 1), (2, 2);
 ```
 
-# Exercices
+## Exercices
 
 ### 1.Les titres et dates de sortie des films du plus récent au plus ancien
 ```sql
