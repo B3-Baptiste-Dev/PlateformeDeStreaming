@@ -235,3 +235,7 @@ SELECT COUNT(*) FROM Film WHERE annéeSortie = 1990;
 ```sql
 SELECT COUNT(DISTINCT idActeur) FROM FilmActeur;
 ```
+
+![MCD](https://github.com/B3-Baptiste-Dev/PlateformeDeStreaming/blob/main/mcd.svg)
+
+![MLD](https://github.com/B3-Baptiste-Dev/PlateformeDeStreaming/blob/main/mld.svg)
